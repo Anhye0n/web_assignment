@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+
+html, body{
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: NanumR_B;
+    src: url("../fonts/NanumSquareRoundB.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: NanumR_EB;
+    src: url("../fonts/NanumSquareRoundEB.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: NanumR_L;
+    src: url("../fonts/NanumSquareRoundL.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: NanumR_R;
+    src: url("../fonts/NanumSquareRoundR.ttf") format("truetype");
+}
+
+#title {
+    font-family: NanumR_EB;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+#user{
+    margin-top: 20px;
+    font-family: NanumR_B;
+    font-size: 25px;
+    text-align: center;
+}
+
+#date{
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#date_mon{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.active{
+    width: 100% !important;
+}
+
+.active > a{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.active > a > i {
+    padding-left: 33%;
+}
+
+.menubar_text{
+    font-family: NanumR_EB;
+    font-size: 35px !important;
+    /*transition: 0.5s;*/
+}
+
+.menubar_text_none{
+    font-family: NanumR_B;
+    font-size: 30px !important;
+    /*transition: 0.5s;*/
+}
+
+
+.menu_highlight{
+    margin: 10px 15px 0;
+    border-radius: 40px;
+    color: #887777;
+    display: block;
+    text-decoration: none;
+    position: relative;
+    text-transform: uppercase;
+    cursor: pointer;
+    /*padding-top: 20px !important;*/
+    padding-right: 10px !important;
+    padding-bottom: 20px !important;
+    width: 110%;
+    line-height: 1.625rem;
+}
+
+#top_title{
+    font-size: 100px;
+    display: block;
+    font-family: NanumR_EB;
+}
+
+#Dday{
+    font-size: 160px;
+    margin-top: -70px;
+    display: block;
+    font-family: NanumR_EB;
+}
+*, ::after, ::before {
+    box-sizing: unset;
+}
+
+.insert_table{
+    font-family: NanumR_R;
+}
+
+#eval{
+    font-family: NanumR_EB;
+    font-size: 110px;
+    margin-top: -30px;
+    color: #FFFFFF;
+    margin-bottom: -20px;
+}
+#eval_sub{
+    font-family: NanumR_EB;
+    font-size: 50px;
+    margin-top: -40px;
+    color: #FFFFFF;
+    margin-bottom: -20px;
+}
+
+#eval_text{
+    font-family: NanumR_B;
+    font-size: 50px;
+    margin-top: -40px;
+    color: #FFFFFF;
+}
+#eval_text_sub{
+    font-family: NanumR_B;
+    font-size: 30px;
+    margin-top: -50px;
+    color: #FFFFFF;
+}
+
+.tables_text{
+    font-family: NanumR_B;
+    font-size: 30px;
+    margin-top: -80px;
+    color: #FFFFFF;
+}
+
+.tables_num{
+    font-family: NanumR_B;
+    font-size: 20px;
+    margin-top: -80px;
+    color: #FFFFFF;
+}
+
+#tables_button{
+    font-family: NanumR_R;
+    font-size: 20px;
+}
+
+#tables_button_id{
+    margin-left: 10px;
+    margin-right: 10px;
+}
